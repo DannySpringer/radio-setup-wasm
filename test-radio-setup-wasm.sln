@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-radio-setup-wasm.Server", "test-radio-setup-wasm\Server\test-radio-setup-wasm.Server.csproj", "{97267592-E742-44E7-94A7-4F849724826B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-radio-setup-wasm.Client", "test-radio-setup-wasm\Client\test-radio-setup-wasm.Client.csproj", "{63DD3B27-A997-4F77-B3C5-1638C6CE6133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-radio-setup-wasm.Shared", "test-radio-setup-wasm\Shared\test-radio-setup-wasm.Shared.csproj", "{60406059-24AC-41CB-8196-769F0E9962C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97267592-E742-44E7-94A7-4F849724826B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97267592-E742-44E7-94A7-4F849724826B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97267592-E742-44E7-94A7-4F849724826B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97267592-E742-44E7-94A7-4F849724826B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DD3B27-A997-4F77-B3C5-1638C6CE6133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DD3B27-A997-4F77-B3C5-1638C6CE6133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DD3B27-A997-4F77-B3C5-1638C6CE6133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DD3B27-A997-4F77-B3C5-1638C6CE6133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60406059-24AC-41CB-8196-769F0E9962C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60406059-24AC-41CB-8196-769F0E9962C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60406059-24AC-41CB-8196-769F0E9962C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60406059-24AC-41CB-8196-769F0E9962C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB818284-4CE0-4784-A902-43845C545BDD}
+	EndGlobalSection
+EndGlobal
